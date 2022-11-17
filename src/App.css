@@ -1,0 +1,13 @@
+.title{
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+#sub-title{
+    background-color: green;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
