@@ -7,7 +7,14 @@ const App = () => {
   return (
   <div>
     <h1 className='title' >Hello {Name} </h1>
-    <p id= 'sub-title'>loream ipsum dolor sit amet, conserajd, slit, sonu satyam.</p>
+    <p 
+    style= {{
+      color: 'red',
+      fontSize: '2rem',
+      fontWeight: 'bold',
+    }}
+    >
+      loream ipsum dolor sit amet, conserajd, slit, sonu satyam.</p>
   </div>
   );
 };
