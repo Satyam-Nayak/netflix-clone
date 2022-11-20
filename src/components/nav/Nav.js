@@ -3,7 +3,7 @@ import './Nav.css'
 const Nav = ()=> {
     return ( 
     <nav>
-        <div>
+        <section>
             <div className='nav_left'>
                 <img 
                 className='nav_logo'
@@ -22,7 +22,7 @@ const Nav = ()=> {
             <div className='nav_right'>
                 
             </div>
-        </div>
+        </section>
     </nav>
     );
 };
