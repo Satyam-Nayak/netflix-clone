@@ -1,0 +1,25 @@
+nav {
+    color: #fff;
+    height: 8vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 10;
+    font-size: 0.9rem;
+}
+
+section {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: auto;
+}
+.nav_left {
+    display: flex;
+    width: 1.8rem;
+}
+
+.nav_logo {
+    height: 1.8rem;
+}
