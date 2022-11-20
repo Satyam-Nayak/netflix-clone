@@ -8,7 +8,7 @@ const Nav = ()=> {
                 <img 
                 className='nav_logo'
                 alt='logo'
-                src='https://images.ctfassets.net/4cd45et68cgf/7LrExJ6PAj6MSIPkDyCO86/542b1dfabbf3959908f69be546879952/Netflix-Brand-Logo.png?w=684&h=456'
+                src='https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png'
                 />
                 <div className='nav_links'>
                     <a href='/'>Home</a>
@@ -20,7 +20,20 @@ const Nav = ()=> {
                 </div>
             </div>
             <div className='nav_right'>
-                
+                <svg 
+                width='24'
+                height='24'
+                viewBox='0 0 24 24'
+                fill='none'
+                xmlns='http://www.w3.org/2000/svg'
+                >
+                    <path
+                    fillRule='evenodd'
+                    clipRule='evenodd'
+                    d=''
+                    fill='currentColor'
+                    ></path>
+                </svg>
             </div>
         </section>
     </nav>
