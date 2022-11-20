@@ -1,5 +1,5 @@
 nav {
-    color: #fff;
+    background-color: #333;
     height: 8vh;
     width: 100vw;
     position: fixed;
@@ -22,5 +22,39 @@ section {
 }
 
 .nav_logo {
-    height: 1.8rem;
+    /* height: 1.8rem; */
+    height: 22px;
+    width: 70px;
+    display: flex;
+    align-items: center;
 }
+
+.nav_links{
+    margin-left: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    transition: 0.6s ease;
+}
+
+.nav_links a:hover{
+    color: #818181;
+    
+}
+
+.nav_right{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 10rem;
+    flex: 1;
+}
+
