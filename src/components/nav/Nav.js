@@ -1,14 +1,14 @@
 import './Nav.css'
 
-const Nav = ()=>{
+const Nav = ()=> {
     return ( 
     <nav>
-        <section>
+        <div>
             <div className='nav_left'>
                 <img 
                 className='nav_logo'
                 alt='logo'
-                src='https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png'
+                src='https://images.ctfassets.net/4cd45et68cgf/7LrExJ6PAj6MSIPkDyCO86/542b1dfabbf3959908f69be546879952/Netflix-Brand-Logo.png?w=684&h=456'
                 />
                 <div className='nav_links'>
                     <a href='/'>Home</a>
@@ -22,7 +22,7 @@ const Nav = ()=>{
             <div className='nav_right'>
                 
             </div>
-        </section>
+        </div>
     </nav>
     );
 };

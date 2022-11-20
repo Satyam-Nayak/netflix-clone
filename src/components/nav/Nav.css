@@ -1,4 +1,4 @@
-nav {
+/* nav {
     color: #fff;
     height: 8vh;
     width: 100vw;
@@ -18,7 +18,7 @@ section {
 .nav_left {
     display: flex;
     width: 1.8rem;
-}
+} */
 
 .nav_logo {
     height: 1.8rem;
