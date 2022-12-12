@@ -2,9 +2,7 @@ import './Nav.css';
 
 import { useState , useEffect } from 'react';
 const Nav = ()=> {
-    useEffect(()=>{
-        
-    } , [] )
+    useEffect(()=>{} , [] )
 
     return ( 
     <nav>
@@ -53,7 +51,10 @@ const Nav = ()=> {
                      fill='currentColor'>
                      </path>
           </svg>
-          <img className='nav_avatar' src='https://occ-0-2482-3646.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABY20DrC9-11ewwAs6nfEgb1vrORxRPP9IGmlW1WtKuaLIz8VxCx5NryzDK3_ez064IsBGdXjVUT59G5IRuFdqZlCJCneepU.png?r=229' alt='avatar'/>
+          <img 
+          className='nav_avatar' 
+          src='https://occ-0-2482-3646.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABY20DrC9-11ewwAs6nfEgb1vrORxRPP9IGmlW1WtKuaLIz8VxCx5NryzDK3_ez064IsBGdXjVUT59G5IRuFdqZlCJCneepU.png?r=229' 
+          alt='avatar'/>
             </div>
         </section>
     </nav>
