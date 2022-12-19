@@ -2,12 +2,15 @@ import './Header.css'
 function Header() {
     return (
     <header>
+      <div className='header_inner_shadow'></div>
         <div className="header_content">
         <div className="header_billboard">
-            <img alt='billboard'/>
+            <img src='https://occ-0-2482-3646.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABcZdjcnDphK1TiPkNt19wMxyqql90YEzja-IMmQi9UeArdtQC1CC_yNRYPmTUlb6UXo4UlbH9SAPPZWwwzDdVEwmIRwFQCVAwYzcLP2jRu_p.webp?r=e02'
+            alt='billboard'
+            />
         </div>
 
-        <h4>
+        <h4 className='header_desc'>
            "Blind veteran Norman Nordstrom has been hiding out for several years in an isolated cabin. He lives with a young girl and has recreated the family stolen from him by a drunken driver. Their quiet life together is soon shattered when a group of unseemly criminals kidnaps her. Norman is now forced to tap into even darker and more creative instincts in an effort to save her." 
         </h4>
         <div className="header_buttons">
