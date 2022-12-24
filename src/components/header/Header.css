@@ -1,26 +1,25 @@
-header{
+header {
     height: 100vh;
+    /* width: 100vw; */
     background-image: url("https://occ-0-2482-3646.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABfB_3OdRtaz66PnsryT47lx0db9ALFEBkiiRwf0sCaZ8-QKE1CEb6x3BGo9D5u7rQ4aDLUJyPSiXHt9GAmTBjX3GcNyU1EhW6sqn.webp?r=50f");
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
 .header_inner_shadow {
-    z-index: 0;
     position: absolute;
     top: 0;
     left: 0;
+    pointer-events: none;
     height: 100%;
     width: 100%;
-    background: linear-gradient(0deg, rgb(20,20,20,1)0%, rgb(20,20,20,0) 100%) , 
-    linear-gradient(180deg, rgb(20,20,20,0.7)0%, rgb(20,20,20,0) 100%)
+    z-index: 0;
+    background: linear-gradient(0deg, rgba(20, 20, 20, 1) 0%, rgba(20, 20, 20, 0) 100%),
+        linear-gradient(180deg, rgba(20, 20, 20, 0.7) 0%, rgba(20, 20, 20, 0) 100%);
+    box-shadow: 0px 0px 0px;
 }
 
-.header_content {
-    margin-left: 5vw;
-    padding-top: 15vw;
-}
+
 
 header img {
     height: 100%;
@@ -28,56 +27,64 @@ header img {
     object-fit: cover;
 }
 
-.header_billboard{
-    width: 24vw;
-    object-fit: cover;
-    z-index: 2;
+.header_content {
+    margin-left: 5vw;
+    padding-top: 15vw;
+    color: white;
+    line-height: 1.2;
+}
+
+.header_billboard {
+    position: relative;
+    margin-bottom: 1.2vw;
+}
+
+.header_billboard img {
+    width: 23vw;
+}
+
+.header_description {
+    width: 50%;
+    height: 10vh;
+    text-overflow: clip;
+    font-size: 1.1vw;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+    margin-bottom: 0.1vw;
     position: relative;
 }
 
-.header_desc {
-    width: 50%;
-    height: 10vh;
-    color: white;
-    font-size: 1.1vw;
-    font-weight: 500;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-    margin-bottom: 0.1vw;
-    z-index: 2;
-    position: relative;
-}
 
 .header_buttons {
     display: flex;
-    align-items: center;
-    margin-top: 1.5vw;
-    z-index: 2;
-    position: relative;
+    margin-top: 1.2vw;
 }
 
-.header_button{
+.header_button {
     border-radius: 4px;
     border: none;
     font-size: 1.2rem;
     font-weight: 600;
-
     padding: 0.7rem;
     padding-left: 2rem;
     padding-right: 2.5rem;
+    margin-top: 0.6rem;
+    z-index: 1;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    cursor: pointer ;
+    cursor: pointer;
 }
 
-.header_button svg{
-    margin-right: 0.4rem;
+.header_button svg {
+    margin-right: 0.5rem;
+
 }
 
 .play_button {
     background-color: #fff;
+    color: #000;
     margin-right: 1rem;
 }
 
@@ -85,12 +92,17 @@ header img {
     background-color: #e6e6e6;
 }
 
-.more_info_button {
-    background-color: rgba(30, 30, 30, 0.644);
+.my_list_button {
+    background-color: rgba(109,
+            109,
+            110,
+            0.7);
     color: #fff;
 }
 
-.more_info_button:hover{
-    background-color: rgba(30, 30, 30, 0.8);
+.my_list_button:hover {
+    background-color: rgba(109,
+            109,
+            110,
+            0.4);
 }
-

@@ -1,5 +1,4 @@
-.content-wrapper{
-    height: 100vh;
-    background-color: rgb(134, 193, 245);
+.content_container {
+    position: relative;
+    margin-top: -6vw;
 }
-
